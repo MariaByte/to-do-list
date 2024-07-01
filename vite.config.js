@@ -4,7 +4,7 @@ import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
 
 export default defineConfig({
-    base: "/todo-list/",
+    base: "/to-do-list/",
     envPrefix: "VUE_APP_",
     plugins: [vue(), envCompatible()],
     resolve: {
